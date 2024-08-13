@@ -31,10 +31,10 @@ public class MaxNumber {
 	                 array[j] = temp;
 	              }
 	           }
-		        //System.out.println("Third second largest number is:: "+array[i]);
+		        // System.out.println("Third second largest number is:: "+temp);
 
 	        }
-	        // System.out.println("Third second largest number is:: "+array[]);
+	         // System.out.println("Third second largest number is:: "+array[i]);
 	
 		/*
 		int [] arr = new int [] {1, 2, 3, 3, 2};  

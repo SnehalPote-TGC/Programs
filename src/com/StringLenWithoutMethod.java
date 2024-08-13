@@ -2,12 +2,16 @@ package com;
 
 public class StringLenWithoutMethod {
 	public static void main(String[] args) {
-		String str="snehal";
-	      int i = 0;
-	      for(char c: str.toCharArray()) {
-	         i++;
-	      }
-	      System.out.println(i);
+		String str="snehal pote is my name";
+		//String w[] = str.split(" ");
+	      int count = 0;
+	      for(int i =0; i<str.length(); i++) {
+	    	  if(str.charAt(i) != ' ') {
+	    		  
+	    	 
+	         count++;
+	      }}
+	      System.out.println(count);
 		
 	}
 
