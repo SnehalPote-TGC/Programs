@@ -4,7 +4,8 @@ public class ToggleEachWordInString {
 
     public static void main(String[] args) {
         String str = "      My          Name is KHAN";
-        String newStr = str.replaceAll("\\s+", " ").trim();
+      String newStr = str.replaceAll("\\s+", " ").trim();
+        //String newStr = str.trim();
         String[] words = newStr.split("\\s");
         String toggleWord = "";
 
@@ -22,7 +23,7 @@ public class ToggleEachWordInString {
         }
 
         // Trim the result to remove the trailing space
-        toggleWord = toggleWord.trim();
+        //toggleWord = toggleWord.trim();
 
         System.out.println("-->" + toggleWord);
     }
